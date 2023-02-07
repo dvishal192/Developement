@@ -1,0 +1,176 @@
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+    height: 600px;
+}
+
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    
+}
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+    font-family:  'Itim', cursive;
+    color: #fff;
+}
+
+#footer {
+    background-color: #fff;
+    text-align: center;
+    padding:auto;
+}
+
+
+.cta-heading {
+    font-family: 'Itim',cursive;
+    font-size: 225%;
+}
+
+h1{
+    font-family: 'Itim', cursive;
+    line-height: 1.5;
+    font-size: 325%;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 225%;
+    line-height: 2;
+    font-weight: 200; 
+}
+
+h3{
+    font-weight: 700;
+    font-family: serif;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+
+body{
+    font-family: 'Itim', cursive;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%; /* 3% padding to top 15% padding to left and right 7% to bottom */
+}
+
+.navbar-brand{
+    font-size: 200%;
+}
+
+.navbar{
+    padding-bottom: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 18px; 
+}
+
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+
+.row{
+    padding-top: 5%;
+}
+
+.title-image {
+    width: 50%;
+    transform: rotate(25deg);
+    max-width: 100%;
+    height: auto;
+}
+
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color: #ef8172;
+    padding-bottom: 10%;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+
+.press-logo {
+    width: 20%;
+    margin: 20px 15px;
+}
+
+.carousel-item {
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/*@media helps define some specific conditions while processing the conditions for certain specific headings*/
+/*Use modularity to be more specific across the headings- May be like add classes */
+/*D.R.Y -  Do not repeat yourself */
+/*Space vs no space-- hierarchi -- id classes html tags*/
+/*If we place two styling attributes in the class then the last css property gets applied*/
+/*Use Ids really really sparingly only for sections its recommended*/
+/*Inline css style is bad practice*/
+
+
+@media (max-width: 995px) {
+    #title {
+        text-align: center;
+    }
+    
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+.footer-icon {
+    padding: 3% 2% 3% ;
+}
+
+.footer-icon:hover {
+    color: #ff4c68;
+}
